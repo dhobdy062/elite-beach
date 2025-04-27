@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Quill Editor -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Blog Post | Elite Adult Beach Vacations</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" defer src="create-post.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Create New Blog Post</h1>
+  </header>
+
+  <section class="password-section" style="text-align:center; margin-top:50px;">
+    <input type="password" id="password-input" placeholder="Enter Password" style="padding:10px;">
+    <button id="password-submit" class="btn-primary" style="margin-left:10px;">Unlock Form</button>
+    <div id="password-error" style="color:red; margin-top:10px;"></div>
+  </section>
+
+  <section id="create-post-section" class="create-post" style="display:none;">
+
+    <form id="create-post-form" style="max-width:600px; margin:auto;">
+
+      <label>Title</label>
+      <input type="text" id="title" required>
+
+      <label>Slug (URL safe, e.g., riviera-maya-escape)</label>
+      <input type="text" id="slug" required>
+
+      <label>Image URL (from upload tool)</label>
+      <input type="text" id="image_url" required>
+
+      <label>Tags (comma separated)</label>
+      <input type="text" id="tags">
+      <label>Content</label>
+      <div id="editor" style="height:300px; background:#fff; border:1px solid #ccc; margin-bottom:20px;"></div>
+
+      <button type="submit" class="btn-primary" style="margin-top:20px;">Publish Post</button>
+    </form>
+
+    <div id="result" style="text-align:center; margin-top:20px;"></div>
+
+  </section>
+
+</body>
+</html>

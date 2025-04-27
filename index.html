@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite Adult Beach Vacations - Luxury solo beach escapes for adventurous adults.">
+  <title>Elite Adult Beach Vacations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="logo">Elite Adult Beach Vacations</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destination-detail.html">Destinations</a></li>
+        <li><a href="package-detail.html">Packages</a></li>
+        <li><a href="#book">Book Now</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero-beach.jpg" alt="Luxury beach sunset for singles">
+    <div class="hero-text">
+      <h1>Luxury All-Inclusive Beach Escapes for Single Adults</h1>
+      <a href="#book" class="btn-primary">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Deals -->
+  <section class="featured-deals">
+    <h2>Featured Deals</h2>
+    <div class="deals-grid">
+      <div class="deal">
+        <img src="images/dominican.jpg" alt="Punta Cana Escape">
+        <h3>Punta Cana Escape</h3>
+        <p>7 nights all-inclusive from $999</p>
+      </div>
+      <div class="deal">
+        <img src="images/cancun.jpg" alt="Cancun Fiesta">
+        <h3>Cancun Fiesta</h3>
+        <p>5 nights all-inclusive from $799</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Destinations -->
+  <section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destinations-grid">
+      <div class="destination">
+        <a href="destination-detail.html">
+          <img src="images/bahamas.jpg" alt="Bahamas">
+          <h3>Bahamas</h3>
+        </a>
+      </div>
+      <div class="destination">
+        <a href="destination-detail.html">
+          <img src="images/jamaica.jpg" alt="Jamaica">
+          <h3>Jamaica</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Travelers Say</h2>
+    <blockquote>\"The best solo vacation experience of my life! Luxurious, exciting, and unforgettable!\" – Maria L.</blockquote>
+    <blockquote>\"Finally a travel service designed for adventurous singles like me!\" – Jason W.</blockquote>
+  </section>
+
+  <!-- Packages Overview -->
+  <section id="packages" class="packages">
+    <h2>Explore Packages</h2>
+    <div class="packages-grid">
+      <div class="package">
+        <a href="package-detail.html">
+          <img src="images/resort.jpg" alt="Luxury Resort View">
+          <h3>Riviera Maya Singles Getaway</h3>
+          <p>All-inclusive 7-night stay, spa access, group excursions. From $1,299.</p>
+        </a>
+      </div>
+      <div class="package">
+        <a href="package-detail.html">
+          <img src="images/barbados.jpg" alt="Barbados Beach Escape">
+          <h3>Barbados Bliss Retreat</h3>
+          <p>6 nights, luxury resort experience for solo travelers. From $1,499.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="book-now">
+    <h2>Book Your Trip</h2>
+    <form class="booking-form">
+      <label for="destination">Destination</label>
+      <select id="destination">
+        <option>Bahamas</option>
+        <option>Jamaica</option>
+        <option>Riviera Maya</option>
+      </select>
+
+      <label for="dates">Dates</label>
+      <input type="date" id="dates">
+
+      <label for="travelers">Travelers</label>
+      <input type="number" id="travelers" min="1" max="5">
+
+      <button type="submit" class="btn-primary">Check Availability</button>
+    </form>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="about">
+    <h2>About Elite Adult Beach Vacations</h2>
+    <p>We curate luxurious, all-inclusive beach vacations specifically for independent, adventurous adults seeking connection, relaxation, and unforgettable memories.</p>
+  </section>
+
+  <!-- Blog Highlights -->
+  <section id="blog" class="blog">
+    <h2>Travel Tips & Inspiration</h2>
+    <div class="blog-grid">
+      <article>
+        <h3>Top 7 All-Inclusive Resorts for Solo Travelers</h3>
+        <p>Discover luxury resorts that cater perfectly to solo adventurers.</p>
+      </article>
+      <article>
+        <h3>Packing Smart for Your Beach Escape</h3>
+        <p>What to bring for the ultimate solo beach vacation experience.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: support@elitebeachvacations.com</p>
+      <p>Phone: +1 (800) 123-4567</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="cta-footer">
+      <h3>Ready to Meet, Mingle, and Make Waves?</h3>
+      <a href="#book" class="btn-primary">Book Your Escape</a>
+    </div>
+    <div class="social-links">
+      <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+    </div>
+    <div class="legal-links">
+      <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+    </div>
+    <p>&copy; 2025 Elite Adult Beach Vacations. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

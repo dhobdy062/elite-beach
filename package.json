@@ -1,0 +1,17 @@
+{
+  "name": "elite-beach",
+  "version": "1.0.0",
+  "description": "Elite Adult Beach Vacations website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "beach",
+    "vacations",
+    "travel"
+  ],
+  "author": "",
+  "license": "ISC"
+}
