@@ -61,7 +61,7 @@ window.deletePost = async (id) => {
       alert('Post deleted successfully!')
       loadDashboard() // Refresh list
     }
-  }yes
+  }
 }
 
 loadDashboard()
